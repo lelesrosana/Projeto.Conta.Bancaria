@@ -1,4 +1,4 @@
-package conta.model;
+package contabancaria.model;
 
 public abstract  class Conta {
 
@@ -61,7 +61,7 @@ public abstract  class Conta {
 	public boolean sacar(float valor) { 
 		
 		if(this.getSaldo() < valor) {
-			System.out.println("\n Saldo Insuficiente!");
+			System.out.println("\n Saldo Insuficiente! ");
 			return false;
 		}
 			
@@ -81,10 +81,10 @@ public abstract  class Conta {
 		
 		switch(this.tipo) {
 		case 1:
-			tipo = "Conta Corrente";
+			tipo = "Conta Corrente ";
 		break;
 		case 2:
-			tipo = "Conta Poupança";
+			tipo = "Conta Poupança ";
 		break;
 		}
 		

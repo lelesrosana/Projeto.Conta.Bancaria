@@ -1,6 +1,6 @@
-package conta.repository;
+package contabancaria.repository;
 
-import conta.model.Conta;
+import contabancaria.model.Conta;
 public interface ContaRepository {
 
 	public void procurarPorNumero(int numero);

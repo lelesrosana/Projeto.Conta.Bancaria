@@ -1,4 +1,4 @@
-package conta.model;
+package contabancaria.model;
 
 public class ContaPoupanca extends Conta{
 
@@ -19,7 +19,7 @@ public class ContaPoupanca extends Conta{
 	@Override
 	public void visualizar() {
 		super.visualizar();
-		System.out.println("Aniversario");
+		System.out.println("Aniversario ");
 	}
 	
 }
